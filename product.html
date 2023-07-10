@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <style>
+    /* Add some 90's style to the page */
+    body {
+      background: linear-gradient(to right, #92c2bd, #39a9bd);
+      font-family: 'Lucida Console';
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background: linear-gradient(to right, #92c2bd, #39a9bd);
+      padding: 20px;
+    }
+    .navigation {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .navigation a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #000;
+      font-size: 18px;
+    }
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+    .content h2 {
+      margin-top: 50px;
+    }
+    .card-display {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .card {
+      background: linear-gradient(to right, #249e53, #0329d3);
+      border: 3px solid #2d0136;
+      width: 300px;
+      height: 400px;
+      margin: 20px;
+      text-align: center;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    .card img {
+      width: 75%;
+      border: 3px solid #2d0136;
+      margin-top: 25px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    .card h2 {
+      font-size: 27px;
+    }
+    table {
+      margin-top: 50px;
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Product Page</h1>
+  </div>
+  <div class="navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="product.html">Product</a>
+    <a href="blog.html">Blog</a>
+    <a href="qna.html">Q&amp;A</a>
+  </div>
+  <div class="content">
+    <h2>Product Page</h2>
+    <div class="card-display">
+      <!-- Display a few example trading cards -->
+      <div class="card">
+        <img src="https://sensualfrog.github.io/MOSHED-2023-6-21-16-5-36.gif" alt="Quantum Entangled Heart Card">
+        <h2>Quantum Entangled Heart</h2>
+      </div>
+      <div class="card">
+        <img src="https://sensualfrog.github.io/MOSHED-2023-6-21-0-8-4.gif" alt="Water movement Card">
+        <h2>Water movement</h2>
+      </div>
+      <div class="card">
+        <img src="https://sensualfrog.github.io/bastard-sun._ZDRAT_Lorenz_Attractor_Omniscient_max_photo_realis_e7f63557-24dc-4a84-a47b-f39d96b38336.png" alt="ZDRAT Lorenz Attractor Omniscient Max Photo Realism">
+        <h2>ZDRAT Lorenz Attractor</h2>
+      </div> 
+      <div class="card">
+        <img src="https://sensualfrog.github.io/MOSHED-2023-7-8-22-50-46.gif" alt="ZDRAT Lorenz Attractor wobble render">
+        <h2>ZDRAT Lorenz Attractor Wobble</h2>
+      </div>
+      <div class="card">
+        <img src="https://sensualfrog.github.io/MOSHED-2023-7-8-22-52-3.gif" alt="ZDRAT Lorenz Attractor solarized render">
+        <h2>ZDRAT Lorenz Solarized Render</h2>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Votes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Quantum Entangled Heart</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Water movement</td>
+          <td>5</td>
+        </tr>
+        <!-- Add more rows for other images -->
+      </tbody>
+    </table>
+    <textarea placeholder="Leave a comment"></textarea>
+  </div>
+</body>
+</html>
